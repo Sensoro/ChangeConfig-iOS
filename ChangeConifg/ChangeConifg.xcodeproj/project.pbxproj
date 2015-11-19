@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6321085B1BFDB5F90069DD75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321085A1BFDB5F90069DD75 /* main.m */; };
+		6321085E1BFDB5F90069DD75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6321085D1BFDB5F90069DD75 /* AppDelegate.m */; };
+		632108611BFDB5F90069DD75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632108601BFDB5F90069DD75 /* ViewController.m */; };
+		632108641BFDB5F90069DD75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632108621BFDB5F90069DD75 /* Main.storyboard */; };
+		632108661BFDB5F90069DD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632108651BFDB5F90069DD75 /* Assets.xcassets */; };
+		632108691BFDB5F90069DD75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632108671BFDB5F90069DD75 /* LaunchScreen.storyboard */; };
+		639ACD5C1BFDB70A00E2CE95 /* libSensoroBeaconKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 639ACD5A1BFDB70A00E2CE95 /* libSensoroBeaconKit.a */; };
+		639ACD5D1BFDB70A00E2CE95 /* libSensoroCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 639ACD5B1BFDB70A00E2CE95 /* libSensoroCloud.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		632108561BFDB5F90069DD75 /* ChangeConifg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeConifg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6321085A1BFDB5F90069DD75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6321085C1BFDB5F90069DD75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6321085D1BFDB5F90069DD75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6321085F1BFDB5F90069DD75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		632108601BFDB5F90069DD75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		632108631BFDB5F90069DD75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		632108651BFDB5F90069DD75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		632108681BFDB5F90069DD75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6321086A1BFDB5F90069DD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639ACD4F1BFDB70A00E2CE95 /* SBKBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKBeacon.h; sourceTree = "<group>"; };
+		639ACD501BFDB70A00E2CE95 /* SBKBeaconID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKBeaconID.h; sourceTree = "<group>"; };
+		639ACD511BFDB70A00E2CE95 /* SBKBeaconManager+Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SBKBeaconManager+Cloud.h"; sourceTree = "<group>"; };
+		639ACD521BFDB70A00E2CE95 /* SBKBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKBeaconManager.h; sourceTree = "<group>"; };
+		639ACD531BFDB70A00E2CE95 /* SBKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKConstants.h; sourceTree = "<group>"; };
+		639ACD541BFDB70A00E2CE95 /* SBKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKError.h; sourceTree = "<group>"; };
+		639ACD551BFDB70A00E2CE95 /* SBKUnitConvertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBKUnitConvertHelper.h; sourceTree = "<group>"; };
+		639ACD561BFDB70A00E2CE95 /* SIKBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIKBeacon.h; sourceTree = "<group>"; };
+		639ACD571BFDB70A00E2CE95 /* SIKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIKError.h; sourceTree = "<group>"; };
+		639ACD581BFDB70A00E2CE95 /* SIKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIKManager.h; sourceTree = "<group>"; };
+		639ACD591BFDB70A00E2CE95 /* SIKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIKUser.h; sourceTree = "<group>"; };
+		639ACD5A1BFDB70A00E2CE95 /* libSensoroBeaconKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSensoroBeaconKit.a; sourceTree = "<group>"; };
+		639ACD5B1BFDB70A00E2CE95 /* libSensoroCloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSensoroCloud.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632108531BFDB5F90069DD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639ACD5C1BFDB70A00E2CE95 /* libSensoroBeaconKit.a in Frameworks */,
+				639ACD5D1BFDB70A00E2CE95 /* libSensoroCloud.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6321084D1BFDB5F90069DD75 = {
+			isa = PBXGroup;
+			children = (
+				639ACD4D1BFDB70A00E2CE95 /* Sensoro Beacon Kit */,
+				632108581BFDB5F90069DD75 /* ChangeConifg */,
+				632108571BFDB5F90069DD75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		632108571BFDB5F90069DD75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				632108561BFDB5F90069DD75 /* ChangeConifg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		632108581BFDB5F90069DD75 /* ChangeConifg */ = {
+			isa = PBXGroup;
+			children = (
+				6321085C1BFDB5F90069DD75 /* AppDelegate.h */,
+				6321085D1BFDB5F90069DD75 /* AppDelegate.m */,
+				6321085F1BFDB5F90069DD75 /* ViewController.h */,
+				632108601BFDB5F90069DD75 /* ViewController.m */,
+				632108621BFDB5F90069DD75 /* Main.storyboard */,
+				632108651BFDB5F90069DD75 /* Assets.xcassets */,
+				632108671BFDB5F90069DD75 /* LaunchScreen.storyboard */,
+				6321086A1BFDB5F90069DD75 /* Info.plist */,
+				632108591BFDB5F90069DD75 /* Supporting Files */,
+			);
+			path = ChangeConifg;
+			sourceTree = "<group>";
+		};
+		632108591BFDB5F90069DD75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6321085A1BFDB5F90069DD75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		639ACD4D1BFDB70A00E2CE95 /* Sensoro Beacon Kit */ = {
+			isa = PBXGroup;
+			children = (
+				639ACD4E1BFDB70A00E2CE95 /* Headers */,
+				639ACD5A1BFDB70A00E2CE95 /* libSensoroBeaconKit.a */,
+				639ACD5B1BFDB70A00E2CE95 /* libSensoroCloud.a */,
+			);
+			name = "Sensoro Beacon Kit";
+			path = "../Sensoro Beacon Kit";
+			sourceTree = "<group>";
+		};
+		639ACD4E1BFDB70A00E2CE95 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				639ACD4F1BFDB70A00E2CE95 /* SBKBeacon.h */,
+				639ACD501BFDB70A00E2CE95 /* SBKBeaconID.h */,
+				639ACD511BFDB70A00E2CE95 /* SBKBeaconManager+Cloud.h */,
+				639ACD521BFDB70A00E2CE95 /* SBKBeaconManager.h */,
+				639ACD531BFDB70A00E2CE95 /* SBKConstants.h */,
+				639ACD541BFDB70A00E2CE95 /* SBKError.h */,
+				639ACD551BFDB70A00E2CE95 /* SBKUnitConvertHelper.h */,
+				639ACD561BFDB70A00E2CE95 /* SIKBeacon.h */,
+				639ACD571BFDB70A00E2CE95 /* SIKError.h */,
+				639ACD581BFDB70A00E2CE95 /* SIKManager.h */,
+				639ACD591BFDB70A00E2CE95 /* SIKUser.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		632108551BFDB5F90069DD75 /* ChangeConifg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6321086D1BFDB5F90069DD75 /* Build configuration list for PBXNativeTarget "ChangeConifg" */;
+			buildPhases = (
+				632108521BFDB5F90069DD75 /* Sources */,
+				632108531BFDB5F90069DD75 /* Frameworks */,
+				632108541BFDB5F90069DD75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeConifg;
+			productName = ChangeConifg;
+			productReference = 632108561BFDB5F90069DD75 /* ChangeConifg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6321084E1BFDB5F90069DD75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Sensoro;
+				TargetAttributes = {
+					632108551BFDB5F90069DD75 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 632108511BFDB5F90069DD75 /* Build configuration list for PBXProject "ChangeConifg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6321084D1BFDB5F90069DD75;
+			productRefGroup = 632108571BFDB5F90069DD75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				632108551BFDB5F90069DD75 /* ChangeConifg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		632108541BFDB5F90069DD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632108691BFDB5F90069DD75 /* LaunchScreen.storyboard in Resources */,
+				632108661BFDB5F90069DD75 /* Assets.xcassets in Resources */,
+				632108641BFDB5F90069DD75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632108521BFDB5F90069DD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632108611BFDB5F90069DD75 /* ViewController.m in Sources */,
+				6321085E1BFDB5F90069DD75 /* AppDelegate.m in Sources */,
+				6321085B1BFDB5F90069DD75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		632108621BFDB5F90069DD75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632108631BFDB5F90069DD75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		632108671BFDB5F90069DD75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632108681BFDB5F90069DD75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6321086B1BFDB5F90069DD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6321086C1BFDB5F90069DD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6321086E1BFDB5F90069DD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeConifg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "../\"Sensoro Beacon Kit\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensoro.ChangeConifg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6321086F1BFDB5F90069DD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeConifg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "../\"Sensoro Beacon Kit\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensoro.ChangeConifg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		632108511BFDB5F90069DD75 /* Build configuration list for PBXProject "ChangeConifg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6321086B1BFDB5F90069DD75 /* Debug */,
+				6321086C1BFDB5F90069DD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6321086D1BFDB5F90069DD75 /* Build configuration list for PBXNativeTarget "ChangeConifg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6321086E1BFDB5F90069DD75 /* Debug */,
+				6321086F1BFDB5F90069DD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6321084E1BFDB5F90069DD75 /* Project object */;
+}
